@@ -1,0 +1,27 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  border-top: 1px solid rgba(121, 121, 121, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* box-sizing? padding을 주면, 지정한 box크기 값을 유지하기 위해 padding만큼 늘어난다.
+그래서 아니야 box는 border를 box로 인식해. 라고 해주면, border size가 지정한 box 사이즈를 유지해야 하기 때문에 내부 box가 padding 만큼 준다.  */
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  right: -15px;
+  top: -20px;
+}
