@@ -9,12 +9,22 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icons-row.css";
+@import "components/alt-header.css";
 
 /* Screen */
 @import "screen/status-bar.css";
 @import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
 
 body {
   color: #2e363e;
+  height: 300vh;
   font-family: "Open Sans", sans-serif;
 }
